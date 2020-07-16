@@ -13,7 +13,7 @@ import org.junit.runner.RunWith;
         features = "src/test/resources/features",
         glue = "com/cybertek/CRM.step_definitions",
         dryRun = false,
-        tags = ""
+        tags = "@wiki"
 )
 public class CukesRunner {
 }
