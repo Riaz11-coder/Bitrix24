@@ -21,7 +21,7 @@ public class Hooks {
 
 
     @After(order = 1)
-    public void tearDownScenario(Scenario scenario){
+    public void tearDownScenario(Scenario scenario) throws  Exception{
         //System.out.println("-----> After annotation: Closing browser");
         //System.out.println("scenario.getName() = " + scenario.getName());
         //System.out.println("scenario.getSourceTagNames() = " + scenario.getSourceTagNames());
@@ -40,6 +40,9 @@ public class Hooks {
             scenario.attach(screenshot, "image/png", scenario.getName());
 
         }
+
+
+        Driver.closeDriver();
 
     }
 
