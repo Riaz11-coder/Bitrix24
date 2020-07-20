@@ -5,11 +5,14 @@ import io.cucumber.java.*;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 
+import java.util.concurrent.TimeUnit;
+
 public class Hooks {
 
     @Before(order = 2)
     public void setUpScenario(){
         System.out.println("-----> Before annotation: Setting up browser");
+        Driver.getDriver().manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
     }
 
     @Before(value = "@db", order = 1)
@@ -40,6 +43,7 @@ public class Hooks {
             scenario.attach(screenshot, "image/png", scenario.getName());
 
         }
+
 
     }
 
