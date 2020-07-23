@@ -7,8 +7,8 @@ import org.openqa.selenium.support.PageFactory;
 
 public class Bitrix24Page {
 
-
     public Bitrix24Page(){
+
         PageFactory.initElements(Driver.getDriver(),this);
     }
 

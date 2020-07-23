@@ -7,7 +7,7 @@ import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import org.openqa.selenium.Keys;
 
-public class bitrix24LoginStepDefs {
+public class Bitrix24LoginStepDefs {
 
     Bitrix24Page bitrix24Page = new Bitrix24Page();
 
