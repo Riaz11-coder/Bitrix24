@@ -11,9 +11,9 @@ import org.junit.runner.RunWith;
                 "rerun:target/rerun.txt"
         },
         features = "src/test/resources/features",
-        glue = "com/cybertek/CRM.step_definitions",
+        glue = "btx24/crm/step_definitions",
         dryRun = false,
-        tags = "@wiki"
+        tags = "@bitrix24"
 )
 public class CukesRunner {
 }
