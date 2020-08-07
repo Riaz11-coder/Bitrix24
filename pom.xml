@@ -24,16 +24,12 @@
                 <artifactId>maven-surefire-plugin</artifactId>
                 <version>2.22.2</version>
                 <configuration>
+                    <runOrder>alphabetical</runOrder>
                     <includes>
                         <include>**/CukesRunner.java</include>
-                        <!--                       <include>**/FailedTestRunner.java</include>-->
+                        <include>**/FailedTestRunner.java</include>
                     </includes>
                     <testFailureIgnore>false</testFailureIgnore>
-                    <runOrder>alphabetical</runOrder>
-                    <parallel>methods</parallel>
-                    <threadCount>3</threadCount>
-                    <perCoreThreadCount>false</perCoreThreadCount>
-                    <forkCount>2C</forkCount>
                     <suiteXmlFiles>
                         <suiteXmlFile>smoketest.xml</suiteXmlFile>
                     </suiteXmlFiles>
