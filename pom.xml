@@ -34,9 +34,7 @@
                     <threadCount>3</threadCount>
                     <perCoreThreadCount>false</perCoreThreadCount>
                     <forkCount>2C</forkCount>
-                    <suiteXmlFiles>
-                        <suiteXmlFile>smoketest.xml</suiteXmlFile>
-                    </suiteXmlFiles>
+
                 </configuration>
 
             </plugin>
