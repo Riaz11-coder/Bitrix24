@@ -13,7 +13,7 @@ import org.junit.runner.RunWith;
         features = "src/test/resources/features",
         glue = "btx24/crm/step_definitions",
         dryRun = false,
-        tags = "@SelectingContacts"
+        tags = "@smoke"
 )
 public class CukesRunner {
 }

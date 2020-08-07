@@ -2,7 +2,7 @@ Feature: login feature
   Agile story:User should be able to login with correct credentials
 
 
-  @helpDesk
+  @smoke
   Scenario: Help desk user should able to login with help desk credentials
     Given User is on the login page
     Then  User types in username
