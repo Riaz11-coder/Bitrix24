@@ -5,6 +5,6 @@ Feature: login feature
   @helpDesk
   Scenario: Help desk user should able to login with help desk credentials
     Given User is on the login page
-    Then  User types in username
+    When  User types in username
     And User types in password
     Then User is logged in as a helpDesk
