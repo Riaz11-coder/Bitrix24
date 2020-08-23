@@ -21,10 +21,7 @@ public class Appreciation_Upload_file_image extends Appreciation_Module_Page {
         return super.isElementLoaded(elementToBeLoaded);
     }
 
-    @Override
-    public void UploadFile(String File) {
-        super.UploadFile(File);
-    }
+
 
     @Given("User is logged in and on Activity Stream Page")
     public void userIsLoggedInAndOnActivityStreamPage() {

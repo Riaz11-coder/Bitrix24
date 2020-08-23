@@ -50,13 +50,7 @@ public class Appreciation_Module_Page {
         return element;
     }
 
-    public void UploadFile(String File){
 
-        Driver.getDriver().switchTo().activeElement().sendKeys(File);
-
-
-
-    }
 
 
 
