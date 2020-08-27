@@ -18,7 +18,7 @@ public class Appreciation_Module_Page {
     @FindBy(xpath = "//*[@id='disk-edit-attachn2387']/td[1]/span[1]/span[1]")
     public WebElement getPic;
 
-    @FindBy(xpath = "//*[@id='bx_left_menu_menu_live_feed']/a/span[1]")
+    @FindBy(xpath = "")
     public WebElement ActivityStream;
 
     @FindBy(xpath = "//*[@id='feed-add-post-form-link-text']")
